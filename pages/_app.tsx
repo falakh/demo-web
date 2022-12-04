@@ -6,7 +6,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,1,700&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" />
+
       <Component {...pageProps} />
     </>
   );
